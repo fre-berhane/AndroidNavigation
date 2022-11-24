@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavigationTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_place_holder">This screen is navigated to with supportFragmentManager, and it will not have focus.</string>
+    <string name="text_focusable">This screen is navigated to with navhost stack, and it will have focus.</string>
+    <string name="button_text">Click Test</string>
+    <string name="textbox_hint">Input value</string>
+    <string name="navigate_fragment_focusable">Fragment Focusable</string>
+    <string name="navigate_fragment_non_focusable">Fragment Non Focusable</string>
+</resources>

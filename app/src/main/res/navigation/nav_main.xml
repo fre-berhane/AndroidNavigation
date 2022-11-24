@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragmentMain">
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.zipper.navigationtest.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_fragment_focusable2"
+            app:destination="@id/fragment_focusable2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_focusable2"
+        android:name="com.zipper.navigationtest.Fragment_focusable"
+        android:label="fragment_focusable"
+        tools:layout="@layout/fragment_focusable" />
+</navigation>
